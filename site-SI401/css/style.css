@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
+    margin: 0;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    background-image: url(../images/web-wallpaper.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/web-wallpaper.jpg) ;
     background-size: cover;
-}
-
-.plano-de-fundo {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-attachment: fixed;
 }
 
 nav {
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: rgb(88, 162, 231);
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .nav {
-    margin: 10px;
     display: flex;
     justify-content:space-between;
 }
@@ -42,6 +42,10 @@ nav {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.445);
 }
 
+a {
+    color: black;
+}
+
 .decoration {
     text-decoration: none;
 }
@@ -52,7 +56,9 @@ nav {
 
 .conjunto-cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    row-gap: 40px;
     padding-top: 7%;
 }
 
@@ -65,7 +71,7 @@ nav {
     transition: all 0.6s ease-in-out;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.445);
     padding: 5%;
-    width: 15%;
+    width: 19%;
 }
 
 .card:hover {

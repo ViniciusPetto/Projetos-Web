@@ -1,3 +1,5 @@
+/*Formatação de fonte, body, navbar e footer*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
@@ -21,6 +23,23 @@ nav {
     justify-content:space-between;
 }
 
+.foot {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 1% 37%;
+    align-items: center;
+}
+
+.main-pe {
+    display: flex;
+    justify-content: center;
+    padding: 1% 0 1% 0
+}
+
+/*Formtação dos botões*/
+
 .buttons-nav {
     margin-top: 30px;
 }
@@ -28,7 +47,7 @@ nav {
 .button {
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 5px;
     box-shadow: 0 4px 3px rgba(0, 0, 0, 0.445);
     transition: all 0.3s ease-in-out;
@@ -40,6 +59,8 @@ nav {
     transform: scale(0.1);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.445);
 }
+
+/*Formatação de links e titulo*/
 
 a {
     color: black;
@@ -53,6 +74,8 @@ a {
     text-align: center;
 }
 
+/*Formtação dos cards*/
+
 .conjunto-cards {
     display: flex;
     flex-wrap: wrap;
@@ -64,7 +87,7 @@ a {
 .card {
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 16px;
     transition: all 0.6s ease-in-out;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.445);
@@ -85,11 +108,7 @@ a {
     transform: scale(1.06);
 }
 
-.main-pe {
-    display: flex;
-    justify-content: center;
-    padding: 1% 0 1% 0
-}
+/*Formatação do iframe*/
 
 iframe {
     height: 700px;
@@ -98,7 +117,7 @@ iframe {
 iframe.card {
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 16px;
     transition: all 0.6s ease-in-out;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.445);
@@ -109,13 +128,4 @@ iframe.card {
 iframe.card:hover {
     transform: scale(1.02);
     box-shadow: 0 4px 40px rgba(0, 0, 0, 0.445);
-}
-
-.foot {
-    width: 25%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 0 1% 37%;
-    align-items: center;
 }

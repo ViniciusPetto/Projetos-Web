@@ -1,0 +1,29 @@
+[
+    {
+        "nome": "Vinicius",
+        "ra": "252160",
+        "sexo": "Masculino",
+        "idade": "24",
+        "endereco": "Rua das Flores, 192",
+        "telefone": "suave",
+        "email": "vini@email.com"
+    },
+    {
+        "nome": "Yasmin",
+        "ra": "252161",
+        "sexo": "Feminino",
+        "idade": "24",
+        "endereco": "Rua das Flores, 192",
+        "telefone": "19988886666",
+        "email": "yasmin@email.com"
+    },
+    {
+        "nome": "Pedro",
+        "ra": "252159",
+        "sexo": "Masculino",
+        "idade": "20",
+        "endereco": "Rua das Flores, 192",
+        "telefone": "19988886666",
+        "email": "pedro@email.com"
+    }
+]

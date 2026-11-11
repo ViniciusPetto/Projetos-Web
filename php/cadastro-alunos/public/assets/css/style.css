@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh; /* Garante que o main ocupe toda a altura da tela */
+}
+
+nav {
+    padding-top: 20px;
+    width: 230px;
+    border-right: 1px solid #444;
+}
+
+form, .view-container {
+    flex: 1; /* Permite que o formulario cresca dentro do flexbox */
+    max-width: 700px; /* Define um limite máximo para não ficar gigante em telas muito grandes */
+    padding-top: 20px;
+    margin: auto;
+}
+
+fieldset {
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0;
+    width: 100%; /* Força o fieldset a ocupar toda a largura disponível do form */
+    min-width: 0; /* Previne um bug comum em navegadores onde o fieldset ignora limites no flexbox */
+    box-sizing: border-box; /* Garante que o padding interno não estoure a largura de 100% */
+}
+
+legend {
+    width: auto; /* Cancela a largura de 100% forçada pelo framework */
+    float: none; /* Garante que elementos flutuantes não interfiram */
+    padding: 0 10px; /* Cria um respiro lateral para a linha da borda não atravessar as letras */
+    margin-bottom: 0; /* Remove margens inferiores extras do framework */
+    font-size: 1.2rem; /* Mantém o tamanho da fonte proporcional */
+}

@@ -18,6 +18,7 @@
                 inputs e botões do formulário).
             - Favicon: Flaticon (https://www.flaticon.com/br/)
             - Conversor de Favicon: faicon.io (https://favicon.io/)
+            - Font Awesome: Icones no menu lateral (https://fontawesome.com/)
 
             Para mais informacoes sobre arquitetura do projeto, 
             acesse o arquivo README.md na raiz do projeto.

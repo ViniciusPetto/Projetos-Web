@@ -51,3 +51,4 @@ O sistema foi inteiramente estruturado com os padrões mais recentes do **HTML5 
   *(Utilizado especificamente na estruturação do menu lateral `<nav>` e na padronização visual dos botões e inputs do formulário).*
 * **Favicon:** Ícone fornecido por [Flaticon](https://www.flaticon.com/br/).
 * **Conversor de Favicon:** Geração de assets via [favicon.io](https://favicon.io/).
+* **Font Awesome:** Inclusão de ícones no menu lateral [Font Awesome](https://fontawesome.com/).

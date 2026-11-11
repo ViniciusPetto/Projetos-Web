@@ -43,6 +43,7 @@
 ?>
 
 <?php
+    /*Import do cabeçalho com menu lateral, listagem de alunos e footer*/
     require_once "../view/header.php";
     echo "<br>";
     require_once "../view/lista.php";

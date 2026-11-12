@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Vinicius",
+        "ra": "252160",
+        "sexo": "Masculino",
+        "idade": "24",
+        "endereco": "Rua X, 192",
+        "telefone": "19988886666",
+        "email": "vinicius@email.com"
+    },
+    {
+        "nome": "Jose",
+        "ra": "252159",
+        "sexo": "Masculino",
+        "idade": "24",
+        "endereco": "Rua Y, 200",
+        "telefone": "19988887777",
+        "email": "jose@email.com"
+    },
+    {
+        "nome": "Maria",
+        "ra": "252155",
+        "sexo": "Feminino",
+        "idade": "30",
+        "endereco": "Rua Z, 500",
+        "telefone": "19988885555",
+        "email": "maria@email.com"
+    },
+    {
+        "nome": "Renato",
+        "ra": "300123",
+        "sexo": "Masculino",
+        "idade": "27",
+        "endereco": "Rua A,188",
+        "telefone": "19981112222",
+        "email": "renato@email.com"
+    }
+]
